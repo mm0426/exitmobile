@@ -1,0 +1,24 @@
+0.2 release notes --
+-removed old directory structure since it was primarily designed for a firefox desktop addon.
+todo: fix delete history as it needs to call different functions due to differences between 
+	firefox for android and firefox for desktop
+todo: fix exit application as this trick apparently does not work on firefox for android
+todo: verify cookie deletion still works.
+
+0.3 release notes
+
+-recoded cookie deletion, history deletion, and exit code using mobile specific code
+-found by researching http://mxr.mozilla.org/mozilla-central/source/mobile/android/chrome/content/browser.js
+-reinstated options.xul file.  I initially deleted it as I thought this was desktop specific but 
+after further research firefox for android still uses this
+-cleaned up last remaining desktop code versions
+-created versionhistory.txt file to move these comments away from README.md
+
+1.0 release notes
+
+-after extensive testing, moving to version 1.0
+-added icon
+
+1.1 release notes
+
+-removed preference observer per advice from mozilla editor as it isn't needed

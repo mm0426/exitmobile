@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	  <setting pref="extensions.exitmobile.clearcookies" type="bool" title="Clear Cookies"/>
+	  <setting pref="extensions.exitmobile.clearhistory" type="bool" title="Clear History"/>
+</vbox>
